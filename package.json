@@ -1,0 +1,28 @@
+{
+  "name": "unisender-couch-sync",
+  "version": "0.1.0",
+  "description": "Выгрузка статистики Unisender в CouchDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "unisender",
+    "sync",
+    "couchdb",
+    "stats",
+    "analytics"
+  ],
+  "author": "Vitaliy V. Makeev",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^2.2.0",
+    "es6-promisify": "^4.1.0",
+    "md5": "^2.1.0",
+    "nano": "^6.2.0"
+  }
+}
